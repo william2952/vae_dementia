@@ -1,2 +1,2 @@
-# vae_dementia
-Variational Autoencoder latent space as a classifier for dementia
+# VAE pipeline for dementia type classification with FDG-PET
+
