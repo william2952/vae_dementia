@@ -1,2 +1,2 @@
-# VAE pipeline for dementia type classification with FDG-PET
+## VAE pipeline for dementia type classification with FDG-PET
 
