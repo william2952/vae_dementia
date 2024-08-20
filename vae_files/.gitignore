@@ -1,0 +1,17 @@
+# Ignore all .csv files
+*.csv
+
+# Ignore all .parquet files
+*.parquet
+
+# Ignore all .nii files
+*.nii
+
+# Ignore all contents of any Graphs folder in the project
+**/Graphs/*
+
+# Ignore all contents of any model_data folder in the project
+**/model_data/*
+
+# Ignore all contents of any path_files folder in the project
+**/path_files/*
