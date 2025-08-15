@@ -20,27 +20,20 @@ This repository contains code for processing FDG-PET imaging data using a Variat
 - **classifier.ipynb**  
   Contains code for performing classification tasks using the extracted features. The notebook includes implementations of logistic regression, KNN, ensemble methods, and evaluation metrics (e.g., ROC AUC, balanced accuracy) to differentiate between dementia types.
 
-- **similarity_maps.ipynb**  
+- **similarity_maps.ipynb**
   Generates similarity maps of FDG-PET data. The notebook leverages image processing libraries (e.g., nilearn and ANTs) to create 2D slice visualizations and surface renderings that highlight intensity differences and similarities.
 
 ## Dependencies
 
-Make sure you have the following packages installed:
-
-- Python 3.x
-- PyTorch
-- torchvision
-- scikit-learn
-- pandas
-- NumPy
-- matplotlib
-- nilearn
-- ANTsPy
-- torchinfo
-- tqdm
-- scipy
-
-You can install these dependencies using pip:
+Install the required packages with pip:
 
 ```bash
-pip install torch torchvision scikit-learn pandas numpy matplotlib nilearn ants torchinfo tqdm scipy
+pip install -r requirements.txt
+```
+
+Conda users can create an environment from the provided file:
+
+```bash
+conda env create -f environment.yml
+```
+
