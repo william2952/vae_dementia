@@ -5,6 +5,7 @@ This repository contains code for processing FDG-PET imaging data using a Variat
 ## Publication
 **"Variational autoencoder latent space as a robust and pragmatic clinical classification tool for dementia"**, Alzheimer's Association International Conference, 2024
 [Read the publication here](https://alz-journals.onlinelibrary.wiley.com/doi/full/10.1002/alz.093646)
+[Conference page](https://aaic.alz.org/)
 
 ## Repository Structure
 
