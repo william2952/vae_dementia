@@ -2,6 +2,10 @@
 
 This repository contains code for processing FDG-PET imaging data using a Variational Autoencoder (VAE) framework combined with various machine learning techniques. The goal of the project is to extract meaningful features from FDG-PET data, explore the latent space, generate similarity maps, and perform classification tasks to assist in diagnostic analysis.
 
+## Publication
+**"Variational autoencoder latent space as a robust and pragmatic clinical classification tool for dementia"**, Alzheimer's Association International Conference, 2024
+[Read the publication here](https://alz-journals.onlinelibrary.wiley.com/doi/full/10.1002/alz.093646)
+
 ## Repository Structure
 
 - **VAE_architecture.ipynb**  
