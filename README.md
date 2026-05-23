@@ -19,7 +19,7 @@ This repository contains code for processing FDG-PET imaging data using a Variat
 - **Training set:** n=2,000 FDG-PET brain images (unsupervised VAE pretraining)
 - **Evaluation set:** n=1,239 labeled participants (CU=679, AD=310, DLB=151, bvFTD=99)
 - **Classifier:** Logistic regression on VAE latent embeddings
-The model identifies clinically meaningful brain regions: hippocampi and parietal lobes for AD; frontal lobe and posterior cingulate cortex for DLB; prefrontal pole and occipital lobe for bvFTD — consistent with known metabolic pathology.
+The model identifies clinically meaningful brain regions: hippocampi and parietal lobes for AD; frontal lobe and posterior cingulate cortex for DLB; prefrontal pole and occipital lobe for bvFTD (consistent with known metabolic pathology).
 
 ## Repository Structure
 
