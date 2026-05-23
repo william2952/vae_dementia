@@ -6,6 +6,21 @@ This repository contains code for processing FDG-PET imaging data using a Variat
 **"Variational autoencoder latent space as a robust and pragmatic clinical classification tool for dementia"**, Alzheimer's Association International Conference, 2024, [Read the publication here](https://alz-journals.onlinelibrary.wiley.com/doi/full/10.1002/alz.093646),
 [Conference page](https://aaic.alz.org/)
 
+## Results
+ 
+| Metric | Score |
+|---|---|
+| Balanced Accuracy (4-class differential diagnosis) | **84.8%** |
+| ROC-AUC — Cognitively Unimpaired (CU) | **0.93** |
+| ROC-AUC — Alzheimer's Disease (AD) | **0.90** |
+| ROC-AUC — Dementia with Lewy Bodies (DLB) | **0.89** |
+| ROC-AUC — Behavioral Variant FTD (bvFTD) | **0.83** |
+ 
+- **Training set:** n=2,000 FDG-PET brain images (unsupervised VAE pretraining)
+- **Evaluation set:** n=1,239 labeled participants (CU=679, AD=310, DLB=151, bvFTD=99)
+- **Classifier:** Logistic regression on VAE latent embeddings
+The model identifies clinically meaningful brain regions: hippocampi and parietal lobes for AD; frontal lobe and posterior cingulate cortex for DLB; prefrontal pole and occipital lobe for bvFTD — consistent with known metabolic pathology.
+
 ## Repository Structure
 
 - **VAE_architecture.ipynb**  
